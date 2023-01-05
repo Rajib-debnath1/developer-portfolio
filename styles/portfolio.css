@@ -172,7 +172,35 @@ margin-bottom: 20px;
     color: #757575;
     margin-bottom: 20px;
 }
-.description{
-    color: #757575;
-    margin-bottom: 30px;
+.contact-item .description{
+    color: #474747;
+    margin-top: 25px;
 }
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    
+}
+ .contact .contact-item{
+    text-align: left;
+
+}
+.contact-item .input{
+    margin-top: 20px;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+}
+.contact textarea{
+    margin-bottom: 20px;
+}
+.contact-item img{
+    margin-top: 20px;
+}
+.contact-item a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+
